@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+.headerdiv{
+    background-color: #E1EEFF;
+}
+
+.ContainerHero {
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.header-Grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+
+}
+
+/* .Hero {
+    padding: 10px 0px;
+} */
+
+.SiteLogo>h1 {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.SiteLogo>span {
+    color: #0360d9;
+}
+
+.SiteMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.SiteMenu>li {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 20px;
+    list-style: none;
+    color: #0D2B46;
+
+}
+.UserButton{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 19px;
+
+}
+
+.SignupButton {
+    padding: 12px 33px;
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #0360D9;
+    border-radius: 50px;
+    border: 1px solid #0360D9;
+    color:#FFFFFF;
+
+}
+
+.LoginButton {
+    padding: 12px 33px;
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #E1EEFF;
+    border: 1px solid #0360D9;
+    color: #0360D9;
+
+}
+.active{
+    color: #0360D9;
+    border-bottom: 2px solid #0360D9;
+}
