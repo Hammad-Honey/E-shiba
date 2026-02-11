@@ -353,22 +353,212 @@ a:hover {
     border: none;
     color: #0360D9;
 }
-.why{
+
+.why {
     padding: 75px 0px;
 }
-.aboutus{
+
+.aboutus {
     background-color: #E1EEFF;
+    padding: 75px 0px;
 }
-.aboutusGrid{
+
+.aboutusGrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
     align-items: center;
     justify-content: space-between;
 }
-.testimonialcard{
+
+.testimonialcard {
     background-color: #FFFFFF;
     border-radius: 20px;
     border: 1px solid #A8A8A8;
     padding: 20px 40px;
+}
+
+.Dated {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0px;
+
+}
+
+.UserName {
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+.UserInfo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Stars {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.cardTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: end;
+}
+
+.userimage {
+    height: 10vh;
+
+}
+
+.testimonialText {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 40px;
+}
+
+.aboutheading {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.aboutText {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 16px;
+
+
+}
+
+.userimages {
+    display: flex;
+    align-items: center;
+}
+
+.usersreviews {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+}
+
+.overlapdiv {
+    height: 7vh;
+    width: 7vh;
+    margin-left: -20px;
+}
+
+.overlapdiv1 {
+    height: 7vh;
+    width: 7vh;
+
+}
+
+.newsletter {
+    background-color: #0360D9;
+    border-radius: 25px;
+    padding: 100px;
+
+}
+
+.newsletter>h1 {
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+
+}
+
+.NewsletterInput {
+
+    border: none;
+    padding: 25px 0px;
+    border-radius: 150px;
+    width: 100%;
+
+}
+
+.newsletterform {
+    position: relative;
+}
+
+.NewsletterBtn {
+    background-color: #0360D9;
+    border: none;
+    border-radius: 50%;
+    padding: 20px 20px;
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: medium;
+    outline: #0360D9;
+
+}
+
+.why2 {
+    padding: 75px 0px;
+    background-color: #0360D9;
+}
+
+.socialIcons>div {
+    width: 5vh;
+
+}
+
+.socialIcons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footerheadings {
+    font-family: IBM Plex Sans;
+    font-weight: 600;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.footerp {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.footermenu {
+    list-style: none;
+    padding: 0;
+
+}
+
+.footermenu>li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: IBM Plex Sans;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+
+
 }
