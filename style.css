@@ -3,8 +3,12 @@ body {
     padding: 0;
     background-color: #FFFFFF;
 }
-.headerdiv{
+
+.headerdiv {
+    position: relative;
+    z-index: 999;
     background-color: #E1EEFF;
+
 }
 
 .ContainerHero {
@@ -48,9 +52,11 @@ body {
     font-size: 20px;
     list-style: none;
     color: #0D2B46;
+    
 
 }
-.UserButton{
+
+.UserButton {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -66,7 +72,7 @@ body {
     background-color: #0360D9;
     border-radius: 50px;
     border: 1px solid #0360D9;
-    color:#FFFFFF;
+    color: #FFFFFF;
 
 }
 
@@ -81,7 +87,209 @@ body {
     color: #0360D9;
 
 }
-.active{
-    color: #0360D9;
+
+.active {
+
     border-bottom: 2px solid #0360D9;
+}
+ a:hover{
+    border-bottom: 2px solid #0360D9;
+    transition: ease-in 0.1s
+}
+
+.GridHero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Hero {
+    background-color: #E1EEFF;
+    padding: 120px 0px;
+}
+
+.Hero-tag {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    margin-bottom: 0px;
+
+}
+
+.Tag-discription {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 19px;
+
+
+
+}
+
+
+
+.Searchform {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    z-index: 5;
+    margin: 50px 0px;
+
+
+
+}
+
+.DocNameformSelect {
+    width: 50%;
+    outline: none;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    border-right: solid #ffffff 50px;
+
+}
+
+.DocLocation {
+    width: 50%;
+    outline: none;
+    padding: 25px 40px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    border-right: solid #ffffff 100px;
+}
+
+.icon-btn {
+    position: absolute;
+    right: 0.2%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0360D9;
+    border-radius: 50%;
+    border: none;
+    padding: 12px 15px;
+}
+
+
+.counterContainer {
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.counter {
+    background-color: #0360D9;
+    position: relative;
+    z-index: 2;
+}
+
+.Counter-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.counterGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Counter-items>div>h1 {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size: 64px;
+    color: #FFFFFF;
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.Counter-items>div>p {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+
+
+}
+
+.support,
+.doctors {
+    border-right: 1px solid white;
+    flex-grow: 1;
+}
+
+.users {
+    flex-grow: 1;
+}
+
+.bg-img {
+    position: relative;
+}
+
+.eclipse {
+    position: absolute;
+    right: 0%;
+    bottom: 90%;
+    height: 27vw;
+    z-index: 0;
+}
+
+.docImg {
+    position: absolute;
+    z-index: 2;
+    height: 60vw;
+    bottom: 0%;
+    right: 0%
+}
+
+.ImgandCounter {
+    position: relative;
+}
+
+.Specialists>div h1 {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.cardContainer {
+    max-width: 1240px;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+
+.property-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.card {
+    border: 1px solid #021526;
+    border-radius: 20px;
+    padding: 10px 10px;
+
+}
+
+.bgCircle {
+    background-color: #E6F5FC;
+    margin: 20px 10px;
+    justify-self: start;
+    padding: 20px 15px;
+    border-radius: 50%;
+
+}
+.card:hover{
+    background-color: #0360D9;
 }

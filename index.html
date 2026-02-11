@@ -24,12 +24,14 @@
                     <h1>E-<span style="color: #0360d9;">sheba</span></h1>
                 </div>
                 <div class="SiteMenu">
-                    <li class="active">Home</li>
-                    <li>About</li>
-                    <li>Application</li>
-                    <li>History</li>
+                    <ul class="SiteMenu">
+                        <li class="active"><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li>Application</li>
+                        <li>History</li>
+                    </ul>
                 </div>
-                <div class="UserButton">    
+                <div class="UserButton">
                     <button class="LoginButton">Log in</button>
                     <button class="SignupButton">Sign up</button>
                 </div>
@@ -43,8 +45,143 @@
         </div>
     </header>
     <section class="Hero">
+        <div class="ContainerHero">
+            <div class="GridHero">
+                <div class="content">
+                    <h1 class="Hero-tag">Find & Search Your<br><span style="color: #0360d9;">Favourite</span>Doctor</h1>
+                    <p class="Tag-discription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
+                        viverra amet faucibus.</p>
+                    <div class="Searchform">
+                        <select class="DocNameformSelect" id="Docotor-Name" name="Doc-Name">
+                            <option value="" disabled selected>Doctor's Name</option>
+                            <option>Rehman Dakit</option>
+                            <option>Baboo</option>
+                            <option>Altaf Hussain</option>
+                            <option>Aslam</option>
+                        </select>
+
+                        <select class="DocLocation" id="Location">
+                            <option value="" disabled selected>Location</option>
+                            <option>Karachi</option>
+                            <option>Quetta</option>
+                            <option>India</option>
+                            <option>Sindh</option>
+                        </select>
+                        <button class="icon-btn" type="submit"><img src="./src/Vector.svg" alt="Search Icon"></button>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
 
     </section>
+    <section class="ImgandCounter">
+        <div class="counter">
+            <diV class="counterContainer">
+                <div class="counterGrid ">
+                    <div class="Counter-items">
+                        <div class="support">
+                            <h1>24/7</h1>
+                            <p>Online Support</p>
+
+                        </div>
+                        <div class="doctors">
+                            <h1>100+</h1>
+                            <p>Doctors</p>
+
+                        </div>
+                        <div class="users">
+                            <h1>1M+</h1>
+                            <p>Active Patients</p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </diV>
+
+
+        </div>
+        <div class="docImg">
+            <img style="width: 100%; height: 100%;" src="./src/Doctor No bg.png">
+
+        </div>
+        <div class="eclipse">
+            <img style="width: 100%; height: 100%;" src="./src/Ellipse 14.svg">
+
+        </div>
+
+    </section>
+    <section class="Specialists">
+
+        <div class="cardContainer">
+            <div>
+                <h1>Our Consulting Specialists</h1>
+
+            </div>
+            <div class="property-grid">
+                <div class="card">
+                    <div class="bgCircle">
+                        <img style="width: 100%; height: 100%;" src="./src/icons/Covidicon.svg" alt="covid icon"/>
+                    </div>
+                    <div>
+                        <h1 class="cardTitle">Covid-19 Test</h1>
+                        <p class="cardDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
+                            viverra amet faucibus.</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="bgCircle">
+                        <img style="width: 100%; height: 100%;" src="./src/icons/Lungs Icon.svg" alt="covid icon"/>
+                    </div>
+                    <div>
+                        <h1 class="cardTitle">Covid-19 Test</h1>
+                        <p class="cardDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
+                            viverra amet faucibus.</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="bgCircle">
+                        <img style="width: 100%; height: 100%;" src="./src/icons/Supliment icon.svg" alt="covid icon"/>
+                    </div>
+                    <div>
+                        <h1 class="cardTitle">Covid-19 Test</h1>
+                        <p class="cardDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
+                            viverra amet faucibus.</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="bgCircle">
+                        <img style="width: 100%; height: 100%;" src="./src/icons/Mental Health icon.svg" alt="covid icon"/>
+                    </div>
+                    <div>
+                        <h1 class="cardTitle">Covid-19 Test</h1>
+                        <p class="cardDiscription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem velit
+                            viverra amet faucibus.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
 
 </body>
 
